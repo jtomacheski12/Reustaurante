@@ -45,3 +45,33 @@ footer {
   color: #777;
   margin-top: 40px;
 }
+
+/* Estilo básico para o layout da galeria */
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.imagem-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.imagem-restaurante {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Efeito de zoom ao passar o mouse sobre a imagem */
+.imagem-restaurante:hover {
+  transform: scale(1.05);
+}
