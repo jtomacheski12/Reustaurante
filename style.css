@@ -13,7 +13,7 @@ body {
 
 header {
   background-color: #218bbd;
-  color: rgb(126, 188, 219);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 40px 20px;
   border-radius: 8px;
@@ -21,7 +21,7 @@ header {
 
 section {
   margin: 30px 0;
-  background-color: #fff;
+  background-color: #70abea;
   padding: 20px;
   border-left: 5px solid #218bbd;
   border-radius: 4px;
@@ -29,7 +29,7 @@ section {
 
 h2 {
   margin-bottom: 10px;
-  color: #0fa00a;
+  color: #48a6d8;
 }
 
 ul {
